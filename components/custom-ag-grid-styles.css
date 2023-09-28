@@ -1,0 +1,27 @@
+.ag-header-cell {
+  margin-left: auto;
+  margin-right: auto;
+  border-right: 1px solid #e7e7e8;
+}
+
+.ag-header-cell:last-child {
+  border-right: none;
+}
+
+.ag-theme-alpine {
+  --ag-header-background-color: #fff;
+  --ag-header-height: 80px;
+  --ag-borders: "block";
+  --ag-borders: 2px solid;
+  --ag-border-color: #e7e7e8;
+  --ag-row-border-width: 2px;
+  --ag-row-border-color: #e7e7e8;
+  --ag-border-radius: 8px;
+  --ag-range-selection-border-color: #e7e7e8;
+}
+.odd-row-bg {
+  background-color: #f9f9f9;
+}
+.even-row-bg {
+  background-color: #fff;
+}
